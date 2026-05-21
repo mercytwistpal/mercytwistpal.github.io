@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:0;
+    background-color: #c8e7f0;
+    text-align: center;
+    color:#333;
+    main{
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+    }
+    section {
+        background-color: white;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 12px;
+        max-width: 700px;
+        box-shadow: 0 2px 8px ,rgba(0,0,0,0,1);
+    }
+
+}
+/*Navigating Bar*/ 
+nav{
+background-color:#0077cc;
+padding: 15px;
+text-align: centre;
+}
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold
+}
+button{
+background-color:#2563eb;
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:5px;
+cursor:pointer;
+}
+button:hover{
+background-color:#1d4ed8
+}
+.abou{
+    background-color: rgb(135, 153, 152);
+
+}
+/*ABOUT TABLE*/
+.about-table {
+    width: 100%
+    border:none
+}
+/*ABOUT PAGE*/
+.about{
+padding: 40px;
+}
+.about h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+/*FLEX LAYOUT */
+about.container{
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+/*IMAGE */
+.about-image img {
+    width: 300px;
+    border-radius: 10px;
+}
+/*TEXT SIDE */
+.about-text p {
+    flex: 1;
+}
+.about-text p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+.about-text h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+/*SKILLS */
+.about-text ul {
+    padding-left: 20px;
+}
+.about-text ul li {
+    margin-bottom: 8px;
+
+}
+/*TABLE*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px;
+}
+Table th {
+    background-color: 333;
+    color: white;
+padding: 12px;
+}
+table td {
+    border: 1px solid #ccc ;
+    padding: 12px;
+
+}
